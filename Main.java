@@ -9,7 +9,8 @@ public class Main {
 		
 		firstperson.start();
 		secondperson.start();
-		firstperson.join();
+		firstperson.setPriority(10);
+		//firstperson.join();
 		secondperson.join();
 		
 		
